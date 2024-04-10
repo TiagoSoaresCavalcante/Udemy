@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamento (estatico,absoluto, relativo e fixo)</title>
+
+    <style>
+        body{
+            background: #007fc7;
+        }
+        #conteudo{
+            background: #fff;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+           position: relative; 
+        }
+
+        p{
+            
+            width: 300px;
+            
+        }
+        .fixed{
+             /* fixed: tem seu posicionamento baseado na tela, na janela do navegador*/
+            border: 1px solid red;
+            background: #f2f2f2;
+            position:fixed;
+            bottom: 0px;
+            right: 0px;
+            margin: 0px;
+         
+        }
+        .absolute{
+             /* absolute: permirme definir  um elemento ou ma caixa que é removida do fluxo padrão  do documento, para alinharmos a caixa baseado no  conteudo que tenha uma posição*/
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute;
+            top: 0px;
+            right: 20px;
+        }
+          
+        .relative{
+            /* relative: tem seu posicionamento baseado na posição inicial do elemento */
+            border: 1px solid red;
+            position: relative;
+            /* top, right, bottom, left */
+            /* top: 0px;
+           left: 0px;
+           right: -20px; */
+           bottom: -20px;
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="conteudo">
+        <h1>Posicionamento</h1>
+
+        <p> P1 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi? </p>
+
+         <p class = "fixed" > P2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p>
+
+          <p> P3 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p>
+
+          <p> P4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p> 
+          
+          <p> P5 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p> 
+          
+          <p> P6 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p> 
+          
+          <p> P7 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p> 
+          
+          <p> P8 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p> 
+          
+          <p> P9 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae officia, delectus dignissimos tenetur temporibus ullam magnam quam consequatur obcaecati eum facere neque vero labore ab. Enim aliquam recusandae deserunt nisi?</p>
+    </div>
+</body>
+</html>

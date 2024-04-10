@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+
+//  1) CRIE UMA APLICAÇÃO  CAPAZ DE  IDNTIFICAR A  FAIXA ETARIA COM BASE NA IDADE INFORMADA PELE USUARIO.
+/* 
+        SE A IDADE INFORMADA FOR  MAIOR OU  IGUAL A 0 E MENOR QUE 15, EXIBIR A  MENSAGGEM "CRIANÇA"
+        SE A IDADE INFORMADA FOR  MAIOR OU  IGUAL A 15 E MENOR QUE 30, EXIBIR A  MENSAGGEM "JOVEM"
+        SE A IDADE INFORMADA FOR  MAIOR OU  IGUAL A 60, EXIBIR A  MENSAGGEM "IDOSO"
+*/
+        var idade = prompt('Informe sua idade:')
+        
+        
+        if(idade >= 0 && idade < 15 ){
+            document.write('Criança')
+
+           }else if (idade >= 15 && idade < 30 ){
+            document.write('Jovem')
+        }
+
+        if (idade >= 30 && idade < 60 ){
+            document.write('Adulto')
+
+        } else if (idade >= 60){
+            document.write('Idoso')
+        }
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

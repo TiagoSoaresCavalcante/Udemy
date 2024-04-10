@@ -1,0 +1,66 @@
+/********************* 
+Seletor unirvesal
+*/
+/* *{
+    border: 1px solid red;
+}
+
+/********************* 
+Seletor de texto
+*/
+/* h1{
+    color: green;
+}  */
+
+/********************* 
+Seletor de classe
+*/
+
+/* .verde{
+    color: green;
+} */
+
+/* p.verde{
+    color: green;
+} */
+
+/********************* 
+Seletor de ID
+*/
+
+/* #cabecalho{
+    border: 1px solid black;
+} */
+
+/********************* 
+Seletor de filhos
+*/
+/* li>a{
+    color: red;
+    text-decoration: none;
+
+} */
+
+/********************* 
+Seletor descendente
+*/
+/* ul a{
+color:green ;
+text-decoration: none;
+
+} */
+
+/********************* 
+Seletor de irmão adjacente
+*/
+
+/* h1+p{
+color: green;
+} */
+
+/********************* 
+Seletor de irmão geral
+*/
+h1~p{
+ color: pink;   
+}

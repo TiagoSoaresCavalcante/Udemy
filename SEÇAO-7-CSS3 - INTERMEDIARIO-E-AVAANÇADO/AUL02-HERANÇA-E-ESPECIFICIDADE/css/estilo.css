@@ -1,0 +1,70 @@
+/*
+*********************
+Herança e especificidade
+*/
+
+/*
+*********************
+        Herança 
+*/
+body{
+    color: red;
+    background: #ccc;
+    border: 1px solid blue;
+}
+
+/*
+*********************
+ Especificidade
+*/
+/*
+*********************
+No caso de dois seletores iguais 
+o que prevalece é sempre a utima regra
+(color: chartreuse
+*/
+
+/* p{
+    color: black;
+}
+
+p{
+    color: chartreuse;
+} */
+
+/*
+*********************
+o mesmo acontece com classes e ID
+*/
+/* .pagina p{
+color: blueviolet; 
+}
+
+.pagina p{
+   color: cornsilk; 
+} */
+
+/*
+*********************
+porem se for considerada uma das cores mais importante
+que a outra, basta definir o !important 
+*/
+/* 
+#pagina p{
+    color: blueviolet !important; 
+    }
+    
+    #pagina p{
+       color: cornsilk; 
+    } */
+
+    /* Se um seletor for mais especifico que outro
+    a regra mais especifica sera aplicada
+    (tera presedencia sobre regras mais gerais)*/
+
+    *{
+        color: black;
+    }
+    h2{
+        color: blue;
+    }
