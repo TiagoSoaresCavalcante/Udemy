@@ -62,6 +62,7 @@ E ANTES DE CONSTANTES OU VARIAVEIS GLOBAIS.
 
 [6]- ESPAÇOS  EM EXPREÇÕES E INSTRUÇÕES
 
+
 NÃO FAÇA
 
 funcao( algo[ 1 ] { outro: 2 })
@@ -70,6 +71,36 @@ funcao( algo[ 1 ] { outro: 2 })
 
 funcao(algo[1], {outro:2})
 
+# NÃO FAÇA
+
+allgo  (1)
+
+ 3# FAÇA
+
+algo(1)
+
+# NÃO FAÇA
+
+dict ['chave'] = lista [indice]
+
+ # FAÇA
+
+dict['chave'] = lista[indice]
+
+# NÃO FAÇA
+x               = 1
+y               = 2
+varriavel_longa = 1
+
+# FAÇA 
+
+x = 1
+y = 2
+varriavel_longa = 1
+
+[7]- TERMINE SEMPRE UMA INSTRUÇÃO COM UMAA NOVA LINHA.
 """ 
+
+import this
 
 
